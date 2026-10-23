@@ -1,0 +1,70 @@
+header{
+	background-color: #AFEEE;
+	color: blue;
+	font-size: 30px;
+	text-align: center;
+	}
+body{
+	color:green;
+	background-color:DARKSEAGREEN;
+	}
+p{	font-family:"Tahoma";
+	font-size:20px;
+	color:grey;
+	text-align:justify;
+	}
+footer{
+	color:MISTYROSE;
+	background-color:#B0C4DE;
+	text-align:center;
+	font-size:15px;
+    }
+.vamosaensayar{
+	font-family:"Bahnschrift SemiBold"; 
+	font-size:60px;
+	font-style:italic; 
+	font-weight:bold;
+	font-variant: small-caps;
+	color:MAROON; 
+	text-align:center;
+	text-decoration:teal underline wavy;
+	text-shadow:2px 2px 4px #191970; 
+	line-height:1,5; 
+}
+#menuhorizontal ul {
+	border-bottom-color:purple;
+	border-bottom-style:solid;
+	border-bottom-width:50px;
+}
+#menuhorizontal ul li {
+	display: inline; 
+	padding: 2px 7px; /*Separar el textog*/
+	margin:5px; /* Separar los botones */ 
+	background-color:#800080; 
+	color:white; 
+	font-family:"comic Sans MS"; 
+	font-size:"20px"; 
+}
+#menuhorizontal ul li:hover {
+	background-color:#CCCCCC;
+	cursor:pointer;
+}
+#menuhorizontal ul li a {
+	text-decoration:none;
+	color:iherit;
+}
+#menuD ul li:hover{
+	background-color:grey;
+	color:purple;
+}
+#menuD li<ul{
+	display:none;
+}
+#menuD li:hover>ul{
+	display:inline-block;
+	position:absolute;
+}
+#menu ul>li:hover>ul{
+	display:inline-block;
+	position:absolute;
+}

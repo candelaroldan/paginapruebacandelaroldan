@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+
+<head>
+<title>mi segunda web</title>
+<link href="icono.png" rel="icon" /><!-- para insertar un icono-->
+hola
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="animacion.css" rel="stylesheet" type="text/css">
+<script src="processing.js"></script><!-- para insertar un processing-->
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+HOLA TIC TIC
+<BR>
+<center>
+<div id="info"> Desde el IES CONDESA: </div>
+</center>
+<div id="aviso"> NOS GUSTA TIC</div>
+<canvas id="pjsCanvas">h</canvas>
+<div id="html"><img id="html" src="etiqueta.png"></div>
+</head>
+
+<body>
+<header>Estamos intentando hacer una pagina web decente</header>
+<BR>
+TIC <BR> TIC<BR>
+
+
+
+<main> Para dar formato a estos textos utilizo estas etiquetas:
+<br><b>ESTO LO VOY A PONER EN NEGRITA</b>
+<br><i>ESTE PEQUEÑO TEXTO IRÁ EN CURSIVA</i>
+<br><U>VOY A PONER MI NOMBRE:CANDELA SUBRAYADO</U>
+<br><MARK>ESTE TESTO QUEDARÁ MUY BONITO PORQUE ME HACE UN REMARCADO DIFERENTE</MARK>
+<br>vamos a corregir esta alineacion con la etiqueta center
+<center> <br><b>ESTO LO VOY A PONER EN NEGRITA</b>
+<br><i>ESTE PEQUEÑO TEXTO IRÁ EN CURSIVA</i>
+<br><U>VOY A PONER MI NOMBRE:CANDELA SUBRAYADO</U>
+<br><MARK>ESTE TESTO QUEDARÁ MUY BONITO PORQUE ME HACE UN REMARCADO DIFERENTE</MARK>
+</center>
+<div align="right">
+
+Para dar formato a estos textos utilizo estas etiquetas:
+<br><b>ESTO LO VOY A PONER EN NEGRITA</b>
+<br><i>ESTE PEQUEÑO TEXTO IRÁ EN CURSIVA</i>
+<br><U>VOY A PONER MI NOMBRE:CANDELA SUBRAYADO</U>
+<br><MARK>ESTE TESTO QUEDARÁ MUY BONITO PORQUE ME HACE UN REMARCADO DIFERENTE</MARK>
+</div>
+<p> Parrafoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+</p>
+</main>
+<p id="puntostodos"> enlace interno</p>
+<center><font color="blue"><BIG><BIG><BIG>AHORA VAMOS A HACER LISTAS</BIG></BIG></BIG></font color="blue"></center>
+<ul>TIPOS DE LISTAS</ul>
+<br><ul><li>
+
+		PRIMERA fila SIN VIÑETA (nos pondrá una viñeta por defecto) </li>
+<li>NOS PODRÁ OTRA SEGUNDA FILA POR DEFECTO</li></ul>
+
+		OTRA segunda LISTA
+<ul> <li type="square">primera fila de esta lista con cuadrado </li>
+<li type="square">segunda fila de esta lista con cuadrado </li>
+<li type="square">tercera fila de esta lista con cuadrado </li></ul>
+
+		OTRA tercera LISTA
+<ul> <li type="circle">primera fila de esta lista con círculo </li>
+<li type="circle">segunda fila de esta lista con círculo </li>
+<li type="circle">tercera fila de esta lista con círculo </li></ul>
+
+		OTRA cuarta LISTA
+<ul> <li type="disc">primera fila de esta lista con círculo de fondo negro </li>
+<li type="disc">segunda fila de esta lista con círculo de fondo negro </li>
+<li type="disc">tercera fila de esta lista con círculo de fondo negro </li></ul>
+
+		UNA quinta LISTA PERSONALIZADA
+
+		Con la cobinación de tecla windows + . (punto) se abrirá el menú de emojis
+<ul>👻primera fila</ul>
+<ul>👻segunda fila</ul>
+
+<center><font color="yellow"><BIG><BIG><BIG>AHORA VAMOS A HACER LISTAS NUMERADAS</BIG></BIG></BIG></font color="green"></center>
+</ol> Lista ordenada decimal
+<ol type="1">
+<li>texto del apartado 1 de la lista</li>
+<li>texto del apartado 2 de la lista</li>
+<li>texto del apartado 3 de la lista</li>
+<li>texto del apartado 4 de la lista</li>
+<li>texto del apartado 5 de la lista</li>
+</ol> Lista ordenada alfabética<ol type="a">
+<li>texto del apartado 1 de la lista</li>
+<li>texto del apartado 2 de la lista</li>
+<li>texto del apartado 3 de la lista</li>
+<li>texto del apartado 4 de la lista</li>
+<li>texto del apartado 5 de la lista</li>
+</ol>Lista ordenada números romanos<ol type="i">
+<li>texto del apartado 1 de la lista</li>
+<li>texto del apartado 2 de la lista</li>
+<li>texto del apartado 3 de la lista</li>
+<li>texto del apartado 4 de la lista</li>
+<li>texto del apartado 5 de la lista</li>
+</ol> Lista ordenada empezando en 7<ol type="i">
+<li value="7">
+<li>texto del apartado 1 de la lista</li>
+<li>texto del apartado 2 de la lista</li>
+<li>texto del apartado 3 de la lista</li>
+<li>texto del apartado 4 de la lista</li>
+<li>texto del apartado 5 de la lista</li>
+</ol>
+<center>
+<table class="tabla1">
+<caption>Mi primera tabla en html sin bordes</caption>
+<tr>
+	<td>celda 1</td>
+	<td>celda 2</td>
+</tr>
+    <tr>
+        <td>celda 3</td>
+        <td>celda 4</td>
+    </tr>
+</table>
+</center>
+<table border= "1"
+<caption>Mi primera tabla en html con bordes</caption>
+<tr>
+	<td>celda 1</td>
+	<td>celda 2</td>
+</tr>
+    <tr>
+        <td>celda 3</td>
+        <td>celda 4</td>
+    </tr>
+</table>
+</center>
+Tabla con celdas combinadas
+<table border="1">
+<tr>
+<td colspan=3>celda combinando 3 columnas</td><!-- combina tres celdas de columnas distintas en una.-->
+</tr>
+<tr>
+<td rowspan=2>celda combinando 2 </td><!--combina dos celdas de filas distintas en una.-->
+<td>celda normal</td>
+<td>celda normal</td>
+</tr>
+<tr>
+<td>celda normal</td>
+<td>celda normal</td>
+</tr>
+</table>
+</center>
+<BR></tr>
+<center><font color="purple"><BIG><BIG><BIG>Vamos a ensayar colocando ahora una linea para separar contenidos</BIG></BIG></BIG></font color="purple"></center>
+<p class="vamosaensayar"> Vamos a ensayar colocando ahora una linea a separar contenidos</p>
+<center><BIG><BIG><B><I><U>IMÁGENES<BR></B></I></U></BIG></BIG></center>
+<center><img src="etiqueta.png" alt="mi etiqueta" border="1"
+align="top" width="400" height="40%"></img></center><br>
+<center><BIG><BIG><B><I><U>ENLACES<BR></B></I></U></BIG></BIG></center>
+<center>
+<a href="https://www.google.es" target="_blanck">Pulsa aqui para acceder a google en una ventana nueva</a>
+<br>
+<a href="htmlcincoycss.pdf">descarga desde aqui el documento para elegir tema </a>
+<br>
+<a href="arriba.html">desde aquí, enlaza con otra pagina html</a>
+<br>
+<a href="#puntostodos">desde aquí, vuelvo al enlace de EMPEZAMOS LISTA</a>
+LISTA</a>
+<br>
+<BR><br>
+<CENTER><BIG><BIG><B><I><U>INSERTAR UNA CANCIÓN<BR></B></I></U></BIG></BIG></CENTER>
+<BR>
+<audio src="cancion.mp3" controls></audio>
+<br>
+<audio src="canciona.mp4" controls></audio>
+<br>
+
+<CENTER><BIG><BIG><B><I><U>INSERTAR UN VIDEO<BR></B></I></U></BIG></BIG></CENTER>
+<video src="video.mp4" width="640" height="360" controls></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zdEqVujXGdE?si=xMtVKhG96-Q4Utk1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d397.28184043550135!2d-7.332535649377817!3d37.194178829446585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd102460d0f57d97%3A0xf015a682532a1715!2sFaro%20de%20Isla%20Cristina!5e0!3m2!1ses!2ses!4v1791287432812!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</body>
+<nav id="menuhorizontal">
+ <ul> 
+ <li> <a href="htmlcincoyss.pdf">boton uno</a></li>
+ <li>Boton uno</li> 
+ <li>Boton dos</li>
+ <li>Boton tres</li> 
+ </ul> 
+ </nav> 
+
+<nav id="menuD">
+			<ul>
+				<li>Menú	
+					<ul>
+						<li> <a href="htmlcincoyss.pdf" target="_blank">boton 1</a></li>
+						<li>boton 2
+							<ul>
+								<li> <a href="https://www.google.es" target="_blank">boton 2.1
+								<li>boton 2.2</li>
+							<ul>	
+						</li>
+						<li>boton3</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+<footer>
+adios
+</footer>
